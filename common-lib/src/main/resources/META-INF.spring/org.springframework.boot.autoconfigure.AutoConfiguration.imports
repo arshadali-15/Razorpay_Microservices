@@ -1,0 +1,5 @@
+com.spring.razorpay_micro.common_lib.util.SharedSecurityAutoConfiguration;
+com.spring.razorpay_micro.common_lib.audit.SharedSecurityAutoConfiguration;
+com.spring.razorpay_micro.common_lib.config.SharedKafkaAutoConfiguration;
+com.spring.razorpay_micro.common_lib.idempotency.SharedResilienceAutoConfiguration;
+com.spring.razorpay_micro.common_lib.exception.SharedExceptionAutoConfig;
