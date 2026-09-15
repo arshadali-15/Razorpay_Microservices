@@ -16,7 +16,6 @@ A highly scalable and resilient payment processing system that supports **Card, 
 
 ## ✨ Key Highlights
 
-- **10,000 TPS** validated on Kubernetes with Horizontal Pod Autoscaler (HPA)
 - **PCI-compliant Card Vault** using AES-256 + Spring Security Crypto (raw PANs stay in-memory < 50 ms)
 - **Zero message loss** via SAGA Pattern + Transactional Outbox (PostgreSQL + Kafka)
 - **Idempotency** using Redis `SETNX` — prevents double charges under retry storms
