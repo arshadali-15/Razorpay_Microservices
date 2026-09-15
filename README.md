@@ -131,7 +131,6 @@ payflow/
 
 | Metric                       | Value        |
 |------------------------------|--------------|
-| Peak Throughput              | 10,000 TPS   |
 | p99 Latency (happy path)     | < 80 ms      |
 | Card Vault Encryption Time   | < 50 ms      |
 | Webhook Delivery Success Rate| > 99.9%      |
